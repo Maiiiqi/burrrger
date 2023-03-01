@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{40B94398-FA95-44E7-B504-37DA7E130241}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurgerSystem.Web", "src\BurgerSystem.Web\BurgerSystem.Web.csproj", "{4A482707-E2D2-4C3B-BC12-C1EF76D528BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurgerSystem.Domain", "src\BurgerSystem.Domain\BurgerSystem.Domain.csproj", "{23A0512B-E4A4-4357-BC5F-CF7D199FB402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurgerSystem.EntityFrameworkCore", "src\BurgerSystem.EntityFrameworkCore\BurgerSystem.EntityFrameworkCore.csproj", "{3A83A395-1D76-4975-9CB9-16EE1C852052}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurgerSystem.Ability", "src\BurgerSystem.Ability\BurgerSystem.Ability.csproj", "{837B3F46-7B26-4590-B650-FFA8A6420659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurgerSystem.Ability.Docking", "src\BurgerSystem.Ability.Docking\BurgerSystem.Ability.Docking.csproj", "{B812CAE4-FE4D-471A-B43F-292AC93D861F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BurgerSystem.Http.Client", "src\BurgerSystem.Http.Client\BurgerSystem.Http.Client.csproj", "{1C6D0B05-8AD7-4E0D-AF51-9EDA23020670}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A482707-E2D2-4C3B-BC12-C1EF76D528BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A482707-E2D2-4C3B-BC12-C1EF76D528BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A482707-E2D2-4C3B-BC12-C1EF76D528BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A482707-E2D2-4C3B-BC12-C1EF76D528BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23A0512B-E4A4-4357-BC5F-CF7D199FB402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23A0512B-E4A4-4357-BC5F-CF7D199FB402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23A0512B-E4A4-4357-BC5F-CF7D199FB402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23A0512B-E4A4-4357-BC5F-CF7D199FB402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A83A395-1D76-4975-9CB9-16EE1C852052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A83A395-1D76-4975-9CB9-16EE1C852052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A83A395-1D76-4975-9CB9-16EE1C852052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A83A395-1D76-4975-9CB9-16EE1C852052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{837B3F46-7B26-4590-B650-FFA8A6420659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{837B3F46-7B26-4590-B650-FFA8A6420659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{837B3F46-7B26-4590-B650-FFA8A6420659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{837B3F46-7B26-4590-B650-FFA8A6420659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B812CAE4-FE4D-471A-B43F-292AC93D861F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B812CAE4-FE4D-471A-B43F-292AC93D861F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B812CAE4-FE4D-471A-B43F-292AC93D861F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B812CAE4-FE4D-471A-B43F-292AC93D861F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C6D0B05-8AD7-4E0D-AF51-9EDA23020670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C6D0B05-8AD7-4E0D-AF51-9EDA23020670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C6D0B05-8AD7-4E0D-AF51-9EDA23020670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C6D0B05-8AD7-4E0D-AF51-9EDA23020670}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A482707-E2D2-4C3B-BC12-C1EF76D528BF} = {40B94398-FA95-44E7-B504-37DA7E130241}
+		{23A0512B-E4A4-4357-BC5F-CF7D199FB402} = {40B94398-FA95-44E7-B504-37DA7E130241}
+		{3A83A395-1D76-4975-9CB9-16EE1C852052} = {40B94398-FA95-44E7-B504-37DA7E130241}
+		{837B3F46-7B26-4590-B650-FFA8A6420659} = {40B94398-FA95-44E7-B504-37DA7E130241}
+		{B812CAE4-FE4D-471A-B43F-292AC93D861F} = {40B94398-FA95-44E7-B504-37DA7E130241}
+		{1C6D0B05-8AD7-4E0D-AF51-9EDA23020670} = {40B94398-FA95-44E7-B504-37DA7E130241}
+	EndGlobalSection
+EndGlobal
