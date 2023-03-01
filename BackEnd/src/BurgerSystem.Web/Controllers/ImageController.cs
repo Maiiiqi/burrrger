@@ -1,6 +1,5 @@
 ﻿using BurgerSystem.Ability.Docking.ImageApp;
 using BurgerSystem.Ability.Docking.ImageApp.Dto;
-using BurgerSystem.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BurgerSystem.Web.Controllers
