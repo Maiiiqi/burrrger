@@ -36,16 +36,7 @@ namespace BurgerSystem.Ability.CommentApp
                 if(comment.StoreId != 0 && comment.TasteScore != 0 && comment.TextureScore != 0 && comment.VisualScore != 0)
                 {
                     var store = await StoreRepo.GetAsync(m => m.Id == comment.StoreId);
-                    var count = store.CommentCount;
-                    // calculate new score weight
-                    var newTasteScore = (store.TasteScoreAverage * count + comment.TasteScore * 1) / (count + 1);
-                    var newTextureScore = (store.TextureScoreAverage * count + comment.TextureScore * 1) / (count + 1);
-                    var newVisualScore = (store.VisualScoreAverage * count + comment.VisualScore * 1) / (count + 1);
-                    var newCount = count + 1;
-                    store.TasteScoreAverage = newTasteScore;
-                    store.TextureScoreAverage = newTextureScore;
-                    store.VisualScoreAverage = newVisualScore;
-                    store.CommentCount = newCount;
+                    store.UpdateScore(comment.TasteScore, comment.TextureScore, comment.VisualScore);
                     await StoreRepo.UpdateAsync(store);
                 }
                 return true;
